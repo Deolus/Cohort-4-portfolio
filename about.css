@@ -1,0 +1,70 @@
+.image-container > img {
+    width: 160px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.info > h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.info > h1> span{
+    background-color: black;
+    color: white;
+}
+
+.info > p {
+    text-align: center;
+    color: gray;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.buttons button {
+    width: 160px;
+    padding: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.buttons button.first {
+    color: white;
+    background: black;
+}
+
+.buttons button.first:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.buttons button.second {
+    color: gray;
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.buttons button.second:hover {
+    color: white;
+    background-color: grey;
+}
+
+@media only screen and (min-width: 600px) {
+    .home-page {
+        display: flex;
+        margin: 0 60px;
+    }
+
+    .image-container > img {
+        width: 260px;
+        height: 360px;
+    }
+}

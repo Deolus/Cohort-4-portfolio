@@ -10,18 +10,22 @@ nav > .logo {
 
 nav > ul {
     display: flex;
-    padding: 20 0px;
-    margin: 0;
-    justify-content: space-between;
+    padding: 20 20px;
+    margin: 0px;
     list-style: none;
     box-sizing: content-box;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
 }
 
 nav > ul > li > a {
     text-decoration: none;
     color: black;
-    justify-content: space-between
-    
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 10px;   
+    margin-right: 10px;
 }
 
 @media only screen and (min-width: 600px) {
