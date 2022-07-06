@@ -1,0 +1,55 @@
+.background-color {
+    background-color: bisque;
+    background-position: 100%;
+}
+
+p {
+    font-size: large;
+    font-weight: 100;
+    text-align: justify;
+    font-style: italic;
+    
+    text-align: left;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+p .memories {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+.grid-container {
+    width: 1200px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 40px;
+}
+
+.grid-container .item {
+    width: 300px;
+    margin: 0 0 20px;
+    padding: 10px;
+    background: #fff;
+    overflow: hidden;
+    break-inside: avoid;
+}
+
+.grid-container .item img {
+    max-width: 100%;
+}
+
+
+ 
+.grid > .item > img {
+    /* width: 300px; */
+    /* height: 350px; */
+    /* text-align: center; */
+    padding: 1rem;
+    /* display: flex; */
+     /* border: #ccc 1px solid; */
+
+}
+

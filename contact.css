@@ -1,8 +1,12 @@
+.background-color {
+    background-color: bisque;
+    background-position: 100%;
+}
 
 .contact > h1 {
 text-align: center;
 color: black;
-font-size: 80px;
+font-size: 70px;
 }
 
 .contact > h6 {
@@ -43,9 +47,7 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-    .contact {
-        background-color: yellow;
-    }
+
     .contact > h1 {
         text-align: center;
         color: black;
@@ -108,12 +110,12 @@ textarea {
     margin: auto;
 }
 .fa {
-    padding: 20px;
+    padding: 14px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 80px 2px;
     border-radius: 50%;
   }
   

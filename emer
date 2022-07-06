@@ -1,0 +1,23 @@
+.grid > .item > img {
+    width: 340px;
+    height: 400px;
+    /* display: block; */
+    text-align: center;
+    /* justify-content: row; */
+    display: flex;
+}
+.item {
+    padding-top: 0rem;
+    padding: 10rem;
+    /* padding-top: 0; */
+    height: 80px;
+    margin: 70px;
+   margin-bottom: 0;
+   border: 0cm;
+}
+.grid > .item {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin: 80px;
+}
+
